@@ -13,10 +13,10 @@ import { AppComponent } from './app.component';
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
-    MonacoEditorModule.forRoot() // Initialisierung von MonacoEditorModule
+    MonacoEditorModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA] // Füge CUSTOM_ELEMENTS_SCHEMA hinzu
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }
